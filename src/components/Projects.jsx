@@ -81,6 +81,40 @@ const Projects = () => {
       ],
       technologies: ['自癒混凝土', 'GreenBuilt Healing Agent'],
       area: '12,000 m²'
+    },
+    {
+      id: 5,
+      title: '公共停車場',
+      category: 'infrastructure',
+      location: '荷蘭',
+      year: '2022',
+      client: '荷蘭政府',
+      description: '公共停車場防漏水及加強結構工程，混凝土用量180平方公尺。',
+      image: constructionImage, // 暫時使用現有圖片，後續替換為專屬圖片
+      results: [
+        '結構安全性提升',
+        '防水效能優異',
+        '延長設施壽命'
+      ],
+      technologies: ['Basilisk Self-Healing Repair Mortar MR3'],
+      area: '180 m²'
+    },
+    {
+      id: 6,
+      title: 'Europol停車場',
+      category: 'infrastructure',
+      location: '荷蘭',
+      year: '2021',
+      client: 'Rijksvastgoedbedrijf RVB',
+      description: '大面積快速施工，減少空間封閉時間，施工面積12000平方公尺。',
+      image: constructionImage, // 暫時使用現有圖片，後續替換為專屬圖片
+      results: [
+        '大面積施工完成',
+        '縮短封閉時間',
+        '提高施工效率'
+      ],
+      technologies: ['Basilisk concrete crack repair ER7'],
+      area: '12,000 m²'
     }
   ]
 
@@ -88,7 +122,8 @@ const Projects = () => {
     { id: 'all', label: '全部項目' },
     { id: 'commercial', label: '商業建築' },
     { id: 'infrastructure', label: '基礎設施' },
-    { id: 'industrial', label: '工業建築' }
+    { id: 'industrial', label: '工業建築' },
+    { id: 'heritage', label: '文化遺產' }
   ]
 
   const filteredProjects = selectedCategory === 'all' 
@@ -286,4 +321,3 @@ const Projects = () => {
 }
 
 export default Projects
-

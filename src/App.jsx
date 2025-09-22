@@ -6,7 +6,7 @@ import Technology from './components/Technology'
 import Products from './components/Products'
 import Projects from './components/Projects'
 import Videos from './components/Videos'
-import FAQ from './components/FAQ'
+import Faq from './components/Faq'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -23,7 +23,7 @@ function App() {
             <Route path="/products" element={<Products />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/videos" element={<Videos />} />
-            <Route path="/faq" element={<FAQ />} />
+            <Route path="/faq" element={<Faq />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

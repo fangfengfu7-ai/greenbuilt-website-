@@ -69,7 +69,7 @@ const Navbar = () => {
                   to={item.path}
                   className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
                     location.pathname === item.path
-                      ? 'text-primary bg-blue-50'
+                      ? 'text-primary bg-green-50'
                       : 'text-gray-700 hover:text-primary hover:bg-gray-50'
                   }`}
                   onClick={() => setIsOpen(false)}

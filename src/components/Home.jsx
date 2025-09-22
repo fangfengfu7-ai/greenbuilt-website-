@@ -72,7 +72,7 @@ const Home = () => {
                 <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
                   {slide.title}
                 </h1>
-                <h2 className="text-2xl md:text-3xl mb-6 text-blue-200">
+                <h2 className="text-2xl md:text-3xl mb-6 text-green-200">
                   {slide.subtitle}
                 </h2>
                 <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -82,7 +82,7 @@ const Home = () => {
                   <Button size="lg" asChild>
                     <Link to="/products">了解產品</Link>
                   </Button>
-                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-black">
+                  <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
                     <Play className="mr-2 h-4 w-4" />
                     觀看影片
                   </Button>
@@ -95,13 +95,13 @@ const Home = () => {
         {/* Navigation Arrows */}
         <button
           onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-blue-200 transition-colors"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-200 transition-colors"
         >
           <ChevronLeft size={48} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-blue-200 transition-colors"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-200 transition-colors"
         >
           <ChevronRight size={48} />
         </button>

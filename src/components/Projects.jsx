@@ -1,3 +1,4 @@
+
 import { useState } from 'react'
 import { Calendar, MapPin, Building, Users } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -16,71 +17,71 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: '台北101大樓地下室防水工程',
-      category: 'commercial',
-      location: '台北市信義區',
-      year: '2023',
-      client: '台北101股份有限公司',
-      description: '使用REGEN生物型防水砂漿進行地下室防水修復，有效解決長期滲漏問題。',
+      title: '阿姆斯特丹Schiphol機場',
+      category: 'infrastructure',
+      location: '荷蘭阿姆斯特丹',
+      year: '2018',
+      client: 'Schiphol Airport',
+      description: '使用Basilisk Self-Healing Repair Mortar MR3進行長久性修復工程。',
       image: project1,
       results: [
-        '100%解決滲漏問題',
-        '預計延長使用壽命20年',
-        '節省維修成本60%'
+        '長久性修復完成',
+        '提升機場設施耐久性',
+        '減少維護成本'
       ],
-      technologies: ['REGEN防水砂漿', 'GreenBuilt Healing Agent'],
-      area: '5,000 m²'
+      technologies: ['Basilisk Self-Healing Repair Mortar MR3'],
+      area: '大型機場設施'
     },
     {
       id: 2,
-      title: '高雄港碼頭結構修復',
+      title: '荷蘭高速公路A20',
       category: 'infrastructure',
-      location: '高雄市前鎮區',
-      year: '2023',
-      client: '台灣港務股份有限公司',
-      description: '海事工程環境下的混凝土結構修復，使用自癒混凝土技術抵抗海水侵蝕。',
+      location: '荷蘭',
+      year: '2020',
+      client: '荷蘭國家水利局',
+      description: '高速公路基礎設施的長久性修復，使用Basilisk MR3技術。',
       image: project2,
       results: [
-        '抗海水侵蝕能力提升80%',
-        '結構強度完全恢復',
-        '維修週期延長至10年'
+        '道路結構完全修復',
+        '延長使用壽命',
+        '減少交通中斷時間'
       ],
-      technologies: ['自癒混凝土', 'GreenBuilt Healing Agent'],
-      area: '3,200 m²'
+      technologies: ['Basilisk Self-Healing Repair Mortar MR3'],
+      area: '高速公路段'
     },
     {
       id: 3,
-      title: '新竹科學園區廠房建設',
-      category: 'industrial',
-      location: '新竹市東區',
-      year: '2022',
-      client: '台積電股份有限公司',
-      description: '新建廠房採用自癒混凝土技術，確保長期結構穩定性和防水性能。',
+      title: '荷蘭葛羅寧根會議中心',
+      category: 'commercial',
+      location: '荷蘭葛羅寧根',
+      year: '2016',
+      client: 'BAM Utiliteitsbouw',
+      description: '會議中心長久性修復防漏水工程，施工面積101平方公尺。',
       image: project3,
       results: [
-        '零滲漏率達成',
-        '結構完整性保證50年',
-        '符合半導體廠房標準'
+        '100%解決滲漏問題',
+        '建築防水性能提升',
+        '延長建築使用壽命'
       ],
-      technologies: ['自癒混凝土', 'REGEN防水砂漿'],
-      area: '8,500 m²'
+      technologies: ['Basilisk Self-Healing Repair Mortar MR3'],
+      area: '101 m²'
     },
     {
       id: 4,
-      title: '桃園機場跑道修復工程',
-      category: 'infrastructure',
-      location: '桃園市大園區',
-      year: '2022',
-      client: '桃園國際機場股份有限公司',
-      description: '機場跑道裂縫修復，使用自癒技術確保飛行安全和跑道耐久性。',
+      title: 'het Loo皇宮',
+      category: 'heritage',
+      location: '荷蘭',
+      year: '2019',
+      client: 'BAM',
+      description: '皇宮建築的長久性修復防漏水工程，混凝土用量5000平方公尺，施工時程六週。',
       image: constructionImage,
       results: [
-        '跑道平整度提升95%',
-        '抗重載能力增強',
-        '維修頻率降低70%'
+        '歷史建築完美修復',
+        '保護文化遺產',
+        '專業級修復品質'
       ],
-      technologies: ['自癒混凝土', 'GreenBuilt Healing Agent'],
-      area: '12,000 m²'
+      technologies: ['Basilisk Self-Healing Repair Mortar MR3'],
+      area: '5,000 m²'
     },
     {
       id: 5,
@@ -90,7 +91,7 @@ const Projects = () => {
       year: '2022',
       client: '荷蘭政府',
       description: '公共停車場防漏水及加強結構工程，混凝土用量180平方公尺。',
-      image: constructionImage, // 暫時使用現有圖片，後續替換為專屬圖片
+      image: constructionImage,
       results: [
         '結構安全性提升',
         '防水效能優異',
@@ -107,7 +108,7 @@ const Projects = () => {
       year: '2021',
       client: 'Rijksvastgoedbedrijf RVB',
       description: '大面積快速施工，減少空間封閉時間，施工面積12000平方公尺。',
-      image: constructionImage, // 暫時使用現有圖片，後續替換為專屬圖片
+      image: constructionImage,
       results: [
         '大面積施工完成',
         '縮短封閉時間',
@@ -321,3 +322,5 @@ const Projects = () => {
 }
 
 export default Projects
+
+

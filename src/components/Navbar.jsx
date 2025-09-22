@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import greenBuiltLogo from '/greenbuilt-logo.png'
+import greenBuiltLogo from '/greenheal-logo.png'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <img src={greenBuiltLogo} alt="GreenBuilt Logo" className="h-8 w-auto" />
+              <img src={greenBuiltLogo} alt="GREENHEAL - Self Healing Concrete" className="h-8 w-auto" />
             </Link>
           </div>
 

@@ -1,3 +1,4 @@
+
 import { Users, Award, Globe, Target, Heart, Lightbulb } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import teamImage from '../assets/DJ86w14YcdNd.jpg'
@@ -303,4 +304,5 @@ const About = () => {
 }
 
 export default About
+
 

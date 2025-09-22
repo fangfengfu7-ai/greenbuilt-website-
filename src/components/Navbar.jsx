@@ -43,7 +43,7 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <Button asChild>
+            <Button asChild variant="default">
               <Link to="/contact">聯絡我們</Link>
             </Button>
           </div>

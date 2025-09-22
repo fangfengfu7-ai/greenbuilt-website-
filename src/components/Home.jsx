@@ -17,21 +17,21 @@ const Home = () => {
   const slides = [
     {
       image: heroImage1,
-      title: '混凝土再進化',
-      subtitle: '防水效能第一！',
-      description: '混凝土的其中一樣特性就是「龜裂」，良好的設計與施工可延長混凝土的壽命，但並不能阻止其龜裂，即使細如髮絲的裂痕，在積年累月後一樣可引發致命問題...'
+      title: '生物型自行修復水泥',
+      subtitle: '水泥添加細菌，促進循環經濟及水泥應用的永續發展',
+      description: '水泥是產業排名第一的人造產品，是現代社會發展無可取代的。但水泥產業面臨耐用性、品質、原料和碳足跡等等嚴重的挑戰。'
     },
     {
       image: heroImage2,
-      title: '自癒混凝土技術',
-      subtitle: '革命性建築材料',
-      description: '這項獨特的修復系統是利用一種可生成石灰石結晶的生物添加劑，使混凝土擁有自行產生防水層和修護裂痕的能力。'
+      title: 'Greenheal 水泥沙漿',
+      subtitle: '自發性修復水泥技術',
+      description: '利用微生物接觸到水分會大量繁殖並開始生成石灰石，自動修復裂縫，防止水分滲入並保護鋼筋。Greenheal是乾拌水泥沙漿，加水攪拌均勻即可使用。'
     },
     {
       image: heroImage3,
-      title: 'REGEN生物型防水砂漿',
-      subtitle: '為您的愛屋注入自我修復的能力',
-      description: 'REGEN(銳建)生物型防水砂漿具有生命和對環境回應及適應成長的特性，它的重複性自癒能力相當於給建築物注射一種防水的疫苗。'
+      title: 'Basilisk ER7',
+      subtitle: '混凝土裂縫修復產品',
+      description: '適用於橋樑、停車場、港口和機場、海洋結構工程、道路、陽台和藝廊等各種應用場景，提供大面積快速施工，減少空間封閉時間。'
     }
   ]
 
@@ -125,10 +125,10 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              荷蘭GreenBuilt自癒混凝土
+              荷蘭Basilisk生物型自行修復水泥
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              這項獨特的修復系統是利用一種可生成石灰石結晶的生物添加劑，使混凝土擁有自行產生防水層和修護裂痕的能力，因此可大幅延長混凝土建築物的壽命及降低維修成本。
+              創新科技研發於荷蘭台夫特理工大學(TU Delft) 2006-2014，得過無數創新獎項，擁有四項專利。這項獨特的修復系統利用細菌生成石灰石結晶，使混凝土擁有自行修復裂痕的能力。
             </p>
           </div>
 
@@ -136,9 +136,9 @@ const Home = () => {
             <Card className="text-center hover:shadow-lg transition-shadow">
               <CardContent className="p-8">
                 <Shield className="h-16 w-16 text-primary mx-auto mb-4" />
-                <h3 className="text-2xl font-bold mb-4">防水效能第一</h3>
+                <h3 className="text-2xl font-bold mb-4">自發性修復</h3>
                 <p className="text-gray-600">
-                  最高1毫米內的裂痕都可自動修護，並可搭配不同的客製化工法進行結構上的修護。
+                  微生物接觸到水分會大量繁殖並開始生成石灰石，自動封閉裂縫，防止水分滲入並保護鋼筋。
                 </p>
               </CardContent>
             </Card>
@@ -148,7 +148,7 @@ const Home = () => {
                 <Award className="h-16 w-16 text-primary mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-4">國際認證</h3>
                 <p className="text-gray-600">
-                  榮獲歐盟CE認證、卓越印章及多項國際級創新建築獎項，其效能在2022年受到日本國土交通省認可。
+                  通過NEN-EN 1503-2:2004國際認證，產品符合混凝土結構保護和修復的國際標準。
                 </p>
               </CardContent>
             </Card>
@@ -158,7 +158,7 @@ const Home = () => {
                 <Leaf className="h-16 w-16 text-primary mx-auto mb-4" />
                 <h3 className="text-2xl font-bold mb-4">永續環保</h3>
                 <p className="text-gray-600">
-                  可降低碳足跡的永續型材料，大幅延長建築物的壽命及降低維修成本。
+                  自發性修復混凝土減少25%的二氧化碳排放量，延長建築壽命超過30%，減少維修及閒置時間40%。
                 </p>
               </CardContent>
             </Card>

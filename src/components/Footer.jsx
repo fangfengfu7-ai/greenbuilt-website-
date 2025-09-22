@@ -69,17 +69,18 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone size={16} className="mr-2" />
-                <span className="text-gray-300">+886-2-1234-5678</span>
+                <span className="text-gray-300">+886 0911005440</span>
               </div>
               <div className="flex items-center">
                 <Mail size={16} className="mr-2" />
-                <span className="text-gray-300">info@basilisk.com.tw</span>
+                <span className="text-gray-300">greenbuilt2023@gmail.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1" />
                 <span className="text-gray-300">
-                  台北市信義區信義路五段7號<br />
-                  台北101大樓35樓
+                  No. 18, Alley 56 Le Quang Dao,<br />
+                  Phu Do Ward, Nam Tu Liem<br />
+                  District, Hanoi
                 </span>
               </div>
             </div>

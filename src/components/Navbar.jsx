@@ -36,14 +36,15 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.path
-                    ? 'text-primary border-b-2 border-primary'
-                    : 'text-gray-700 hover:text-primary'
+                    ? 'text-green-600 border-b-2 border-green-600'
+                    : 'text-gray-700 hover:text-green-600'
                 }`}
+                onClick={() => console.log(`Active path: ${location.pathname}, Item path: ${item.path}, ClassName: ${location.pathname === item.path ? 'text-green-600 border-b-2 border-green-600' : 'text-gray-700 hover:text-green-600'}`)}
               >
                 {item.label}
               </Link>
             ))}
-            <Button asChild>
+            <Button asChild variant="default">
               <Link to="/contact">聯絡我們</Link>
             </Button>
           </div>
@@ -52,7 +53,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-primary"
+              className="text-gray-700 hover:text-green-600"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -69,8 +70,8 @@ const Navbar = () => {
                   to={item.path}
                   className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
                     location.pathname === item.path
-                      ? 'text-primary bg-green-50'
-                      : 'text-gray-700 hover:text-primary hover:bg-gray-50'
+                      ? 'text-green-600 bg-green-50'
+                      : 'text-gray-700 hover:text-green-600 hover:bg-gray-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >

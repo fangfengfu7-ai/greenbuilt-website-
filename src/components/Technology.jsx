@@ -1,3 +1,4 @@
+
 import { CheckCircle, Microscope, Beaker, Shield } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import constructionImage from '../assets/uTVPhVcguHyt.webp'
@@ -230,4 +231,5 @@ const Technology = () => {
 }
 
 export default Technology
+
 

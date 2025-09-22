@@ -37,7 +37,7 @@ const Navbar = () => {
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.path
                     ? 'text-green-600 border-b-2 border-green-600'
-                    : 'text-gray-700 hover:text-primary'
+                    : 'text-gray-700 hover:text-green-600'
                 }`}
               >
                 {item.label}
@@ -70,7 +70,7 @@ const Navbar = () => {
                   className={`block px-3 py-2 text-base font-medium transition-colors duration-200 ${
                     location.pathname === item.path
                       ? 'text-green-600 bg-green-50'
-                      : 'text-gray-700 hover:text-primary hover:bg-gray-50'
+                      : 'text-gray-700 hover:text-green-600 hover:bg-gray-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >

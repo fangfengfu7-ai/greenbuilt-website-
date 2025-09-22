@@ -52,7 +52,6 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-green-600"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

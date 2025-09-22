@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  # --- 全域設定 ---
+  - name: "settings"
+    label: "網站全域設定"
+    files:
+      - name: "globals"
+        label: "Logo 與標題"
+        file: "public/content/settings/globals.json"
+        fields:
+          - { label: "網站主 Logo", name: "site_logo", widget: "image" }
+          - { label: "網站小圖示 (Favicon)", name: "site_favicon", widget: "image" }
+          - { label: "網站標題", name: "site_title", widget: "string" }
+
+  # --- 頁面管理 ---
+  - name: "pages"
+    label: "頁面管理 (Pages)"
+    files:
+      - name: "home"
+        label: "首頁內容"
+        file: "public/content/pages/home.json"
+        fields:
+          - { label: "主標題", name: "hero_title", widget: "string" }
+          - { label: "副標題", name: "hero_subtitle", widget: "string" }
+          - { label: "說明文字", name: "hero_description", widget: "text" }
+          - { label: "背景圖片", name: "hero_background_image", widget: "image" }
+
+  # --- 部落格文章 ---
+  - name: "blog"
+    label: "部落格文章 (Blog)"
+    folder: "public/content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "標題 (Title)", name: "title", widget: "string" }
+      - { label: "發布日期 (Date)", name: "date", widget: "datetime" }
+      - { label: "內文 (Body)", name: "body", widget: "markdown" }
+
+  # --- 作品集 ---
+  - name: "showcase"
+    label: "作品集 (Showcase)"
+    folder: "public/content/showcase"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "標題 (Title)", name: "title", widget: "string" }
+      - { label: "內文 (Body)", name: "body", widget: "markdown" }
+

@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom'
 import { Shield, Droplets, Recycle, Award, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -8,68 +9,68 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: 'GreenBuilt Healing Agent',
-      category: '自癒添加劑',
-      description: '全球唯一能夠重複產生防水保護層並且能夠重複修復的生物型自癒原料',
+      name: 'Greenheal 水泥沙漿',
+      category: '生物型自行修復水泥',
+      description: 'Greenheal是乾拌水泥沙漿，加水攪拌均勻即可使用。施工塗抹後，水泥沙漿是結構體表面修飾材料，具有自發性修復龜裂的能力。',
       features: [
-        '重複性自癒能力',
-        '生物型環保材料',
-        '可加入任何水泥製品',
-        '最高修復1毫米裂縫'
+        '自發性修復裂縫',
+        '防水的混凝土',
+        '減少鋼筋使用量',
+        '延長建築壽命超過30%'
       ],
-      certifications: ['歐盟CE認證', '德國寶馬創新建材獎冠軍'],
-      applications: ['新建工程', '修復工程', '預防性維護']
+      certifications: ['NEN-EN 1503-2:2004認證', '荷蘭台夫特理工大學研發'],
+      applications: ['結構體表面修飾', '防水工程', '修復工程']
     },
     {
       id: 2,
-      name: 'REGEN生物型防水砂漿',
-      category: '防水砂漿',
-      description: '具有生命和對環境回應及適應成長特性的防水砂漿，相當於給建築物注射防水疫苗',
+      name: 'Basilisk ER7',
+      category: '混凝土裂縫修復',
+      description: '適用於大面積快速施工的混凝土裂縫修復產品，能夠減少空間封閉時間，提高施工效率。',
       features: [
-        '環境回應性',
-        '適應成長特性',
-        '重複性自癒',
-        '損害控管概念'
+        '大面積快速施工',
+        '減少空間封閉時間',
+        '適用多種應用場景',
+        '高效修復效果'
       ],
-      certifications: ['台灣建材認證', '環保標章'],
-      applications: ['住宅防水', '商業建築', '基礎設施']
+      certifications: ['國際專利技術', '多項創新獎項'],
+      applications: ['停車場', '機場', '道路', '橋樑']
     },
     {
       id: 3,
-      name: '自癒混凝土',
-      category: '結構材料',
-      description: '整合自癒技術的混凝土，能夠自動修復裂縫並延長建築物使用壽命',
+      name: 'Basilisk Self-Healing Repair Mortar MR3',
+      category: '自癒修復砂漿',
+      description: '專業級自癒修復砂漿，廣泛應用於國際重要基礎設施項目，提供長久性修復防漏水解決方案。',
       features: [
-        '自動裂縫修復',
-        '延長使用壽命',
-        '降低維修成本',
-        '永續環保'
+        '長久性修復',
+        '防漏水功能',
+        '國際項目驗證',
+        '專業級品質'
       ],
       certifications: ['國際專利技術', '多國政府認可'],
-      applications: ['橋樑工程', '隧道工程', '海事工程']
+      applications: ['機場', '高速公路', '會議中心', '皇宮建築']
     }
   ]
 
   const benefits = [
     {
       icon: <Shield className="h-8 w-8" />,
-      title: '長期保護',
-      description: '提供持續的結構保護，大幅延長建築物使用壽命'
+      title: '防水的混凝土',
+      description: '提供優異的防水性能，有效防止水分滲透造成的結構損害'
     },
     {
       icon: <Droplets className="h-8 w-8" />,
-      title: '防水效能',
-      description: '優異的防水性能，有效防止水分滲透造成的損害'
+      title: '減少鋼筋使用量',
+      description: '最多可減少33kg鋼筋每立方公尺，降低建造成本和碳足跡'
     },
     {
       icon: <Recycle className="h-8 w-8" />,
-      title: '環保永續',
-      description: '減少維修頻率，降低碳足跡，符合永續發展目標'
+      title: '減少二氧化碳排放',
+      description: '自發性修復混凝土減少25%的二氧化碳排放量，等同136kg CO2每立方公尺'
     },
     {
       icon: <Award className="h-8 w-8" />,
-      title: '品質保證',
-      description: '多項國際認證，品質值得信賴'
+      title: '延長建築壽命',
+      description: '延長建築壽命超過30%，減少維修及閒置時間達40%'
     }
   ]
 
@@ -157,7 +158,7 @@ const Products = () => {
               產品優勢
             </h2>
             <p className="text-xl text-gray-600">
-              為什麼選擇GreenBuilt自癒混凝土產品
+              為什麼選擇Basilisk生物型自行修復水泥產品
             </p>
           </div>
 
@@ -267,4 +268,5 @@ const Products = () => {
 }
 
 export default Products
+
 

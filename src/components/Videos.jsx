@@ -11,69 +11,267 @@ const Videos = () => {
   const videos = [
     {
       id: 1,
-      title: 'CNN 媒體報導 - Self Healing Concrete',
-      category: '媒體報導',
-      duration: '3:45',
-      views: '125K',
-      description: 'CNN國際媒體深度報導自癒混凝土技術的革命性突破，展示其在建築業的應用前景。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-08-15'
-    },
-    {
-      id: 2,
       title: '寰宇新聞報導 - 台灣自癒混凝土技術',
       category: '媒體報導',
       duration: '5:20',
       views: '89K',
       description: '寰宇新聞專題報導台灣引進自癒混凝土技術，解決老屋漏水問題的創新解決方案。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-07-22'
+      thumbnail: 'https://img.youtube.com/vi/oUCUjnb3ARY/maxresdefault.jpg',
+      embedId: 'oUCUjnb3ARY',
+      date: '2023-07-22',
+      url: 'https://www.youtube.com/watch?v=oUCUjnb3ARY'
+    },
+    {
+      id: 2,
+      title: 'TVBS新聞報導 - 自癒混凝土技術',
+      category: '媒體報導',
+      duration: '4:15',
+      views: '76K',
+      description: 'TVBS新聞深度報導自癒混凝土技術的最新發展。',
+      thumbnail: 'https://img.youtube.com/vi/2j_E49jFtvE/maxresdefault.jpg',
+      embedId: '2j_E49jFtvE',
+      date: '2023-06-18',
+      url: 'https://www.youtube.com/watch?v=2j_E49jFtvE'
     },
     {
       id: 3,
-      title: '自癒混凝土技術原理解說',
-      category: '技術說明',
-      duration: '8:30',
+      title: '日本超大型室內鮭魚養殖場(大和房屋工業)',
+      category: '工程案例',
+      duration: '12:45',
       views: '156K',
-      description: '詳細解說自癒混凝土的工作原理，從生物添加劑到石灰石結晶的完整過程。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-06-10'
+      description: '日本大和房屋工業超大型室內鮭魚養殖場建設案例。',
+      thumbnail: 'https://img.youtube.com/vi/CXYNJfi2pB4/maxresdefault.jpg',
+      embedId: 'CXYNJfi2pB4',
+      date: '2023-09-12',
+      url: 'https://www.youtube.com/watch?v=CXYNJfi2pB4'
     },
     {
       id: 4,
-      title: 'REGEN防水砂漿施工示範',
-      category: '施工教學',
-      duration: '12:15',
-      views: '67K',
-      description: '專業施工團隊示範REGEN生物型防水砂漿的正確施工方法和注意事項。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-05-18'
+      title: '中視新聞報導 - 自癒混凝土技術',
+      category: '媒體報導',
+      duration: '3:30',
+      views: '65K',
+      description: '中視新聞專題報導自癒混凝土技術的應用與發展。',
+      thumbnail: 'https://img.youtube.com/vi/Y1LSrKvPdfI/maxresdefault.jpg',
+      embedId: 'Y1LSrKvPdfI',
+      date: '2023-05-20',
+      url: 'https://www.youtube.com/watch?v=Y1LSrKvPdfI'
     },
     {
       id: 5,
-      title: '台北101地下室防水工程案例',
-      category: '工程案例',
-      duration: '6:45',
-      views: '234K',
-      description: '台北101大樓地下室防水修復工程的完整記錄，展示自癒技術的實際應用效果。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-04-25'
+      title: 'CNN 媒體報導 - Self Healing Concrete',
+      category: '媒體報導',
+      duration: '3:45',
+      views: '125K',
+      description: 'CNN國際媒體深度報導自癒混凝土技術的革命性突破，展示其在建築業的應用前景。',
+      thumbnail: 'https://img.youtube.com/vi/eN-vJB7yeJI/maxresdefault.jpg',
+      embedId: 'eN-vJB7yeJI',
+      date: '2023-08-15',
+      url: 'https://www.youtube.com/watch?v=eN-vJB7yeJI'
     },
     {
       id: 6,
-      title: '高雄港碼頭結構修復紀錄',
+      title: 'MR3乾拌砂漿施工影片',
+      category: '施工教學',
+      duration: '15:20',
+      views: '78K',
+      description: 'MR3乾拌砂漿的專業施工方法和技術要點示範。',
+      thumbnail: 'https://img.youtube.com/vi/LRCMyPxTWtw/maxresdefault.jpg',
+      embedId: 'LRCMyPxTWtw',
+      date: '2023-08-08',
+      url: 'https://www.youtube.com/watch?v=LRCMyPxTWtw'
+    },
+    {
+      id: 7,
+      title: 'TED演講 - 自癒混凝土技術',
+      category: '技術說明',
+      duration: '18:30',
+      views: '256K',
+      description: 'TED論壇關於自癒混凝土技術的專業演講。',
+      thumbnail: 'https://img.youtube.com/vi/0l_9NDZ8VZA/maxresdefault.jpg',
+      embedId: '0l_9NDZ8VZA',
+      date: '2023-09-05',
+      url: 'https://www.youtube.com/watch?v=0l_9NDZ8VZA'
+    },
+    {
+      id: 8,
+      title: 'ER7液體修護劑使用說明',
+      category: '施工教學',
+      duration: '10:45',
+      views: '65K',
+      description: 'ER7液體修護劑的正確使用方法和操作指南。',
+      thumbnail: 'https://img.youtube.com/vi/qm-Hi_V2ijY/maxresdefault.jpg',
+      embedId: 'qm-Hi_V2ijY',
+      date: '2023-07-15',
+      url: 'https://www.youtube.com/watch?v=qm-Hi_V2ijY'
+    },
+    {
+      id: 9,
+      title: '隧道工程動畫',
       category: '工程案例',
-      duration: '9:20',
-      views: '178K',
-      description: '高雄港碼頭海事工程環境下的混凝土結構修復全程記錄，見證自癒技術的卓越表現。',
-      thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg',
-      embedId: 'dQw4w9WgXcQ',
-      date: '2023-03-12'
+      duration: '8:30',
+      views: '134K',
+      description: '隧道工程中自癒混凝土技術應用的動畫演示。',
+      thumbnail: 'https://img.youtube.com/vi/4deVfT8cYhA/maxresdefault.jpg',
+      embedId: '4deVfT8cYhA',
+      date: '2023-08-25',
+      url: 'https://www.youtube.com/watch?v=4deVfT8cYhA'
+    },
+    {
+      id: 10,
+      title: '大型蓄水池工程(使用自癒原劑)',
+      category: '工程案例',
+      duration: '16:20',
+      views: '189K',
+      description: '大型蓄水池工程中使用自癒原劑的施工案例記錄。',
+      thumbnail: 'https://img.youtube.com/vi/M7i_Xv9tWnw/maxresdefault.jpg',
+      embedId: 'M7i_Xv9tWnw',
+      date: '2023-07-08',
+      url: 'https://www.youtube.com/watch?v=M7i_Xv9tWnw'
+    },
+    {
+      id: 11,
+      title: '日本會澤高圧コンクリート株式会社演講(日語同步口譯)',
+      category: '技術說明',
+      duration: '25:15',
+      views: '87K',
+      description: '日本會澤高圧混凝土公司關於自癒混凝土技術的專業演講，提供日語同步口譯。',
+      thumbnail: 'https://img.youtube.com/vi/fe5HKMlWBBw/maxresdefault.jpg',
+      embedId: 'fe5HKMlWBBw',
+      date: '2023-05-12',
+      url: 'https://www.youtube.com/watch?v=fe5HKMlWBBw'
+    },
+    {
+      id: 12,
+      title: 'TED論壇：若是混凝土能夠自行修復呢？(可選擇中文字幕)',
+      category: '技術說明',
+      duration: '16:45',
+      views: '189K',
+      description: 'TED論壇探討自癒混凝土技術的可能性和未來發展，提供中文字幕選項。',
+      thumbnail: 'https://img.youtube.com/vi/znSeL66e8qE/maxresdefault.jpg',
+      embedId: 'znSeL66e8qE',
+      date: '2023-07-30',
+      url: 'https://www.youtube.com/watch?v=znSeL66e8qE'
+    },
+    {
+      id: 13,
+      title: 'World Breaking News - 自癒混凝土技術',
+      category: '媒體報導',
+      duration: '2:45',
+      views: '98K',
+      description: 'World Breaking News關於自癒混凝土技術的國際新聞報導。',
+      thumbnail: 'https://img.youtube.com/vi/pz5RZV-Jn0Y/maxresdefault.jpg',
+      embedId: 'pz5RZV-Jn0Y',
+      date: '2023-04-10',
+      url: 'https://www.youtube.com/watch?v=pz5RZV-Jn0Y'
+    },
+    {
+      id: 14,
+      title: '荷蘭Basilisk生物型自癒混凝土技術簡介',
+      category: '技術說明',
+      duration: '8:20',
+      views: '134K',
+      description: '荷蘭Basilisk公司生物型自癒混凝土技術的詳細介紹。',
+      thumbnail: 'https://img.youtube.com/vi/gvBUG_EjV98/maxresdefault.jpg',
+      embedId: 'gvBUG_EjV98',
+      date: '2023-06-25',
+      url: 'https://www.youtube.com/watch?v=gvBUG_EjV98'
+    },
+    {
+      id: 15,
+      title: '混凝土路面修復過程 (ER7液體修復系統)',
+      category: '施工教學',
+      duration: '18:30',
+      views: '112K',
+      description: '使用ER7液體修復系統進行混凝土路面修復的完整過程示範。',
+      thumbnail: 'https://img.youtube.com/vi/qJOKG3zY0Lw/maxresdefault.jpg',
+      embedId: 'qJOKG3zY0Lw',
+      date: '2023-06-02',
+      url: 'https://www.youtube.com/watch?v=qJOKG3zY0Lw'
+    },
+    {
+      id: 16,
+      title: '札幌市水道局工程案例',
+      category: '工程案例',
+      duration: '11:30',
+      views: '98K',
+      description: '札幌市水道局使用自癒混凝土技術的工程應用案例。',
+      thumbnail: 'https://img.youtube.com/vi/BZHjGrqzukw/maxresdefault.jpg',
+      embedId: 'BZHjGrqzukw',
+      date: '2023-05-30',
+      url: 'https://www.youtube.com/watch?v=BZHjGrqzukw'
+    },
+    {
+      id: 17,
+      title: '會澤高圧コンクリート株式会社鵡川工場混凝土養護槽',
+      category: '工程案例',
+      duration: '9:45',
+      views: '76K',
+      description: '會澤高圧混凝土公司鵡川工場的混凝土養護槽工程案例。',
+      thumbnail: 'https://img.youtube.com/vi/iRWUpO6jGBA/maxresdefault.jpg',
+      embedId: 'iRWUpO6jGBA',
+      date: '2023-03-28',
+      url: 'https://www.youtube.com/watch?v=iRWUpO6jGBA'
+    },
+    {
+      id: 18,
+      title: '低碳永續家園形象廣告',
+      category: '媒體報導',
+      duration: '1:30',
+      views: '45K',
+      description: '低碳永續家園建設的形象廣告，展示自癒混凝土技術的環保價值。',
+      thumbnail: 'https://img.youtube.com/vi/mTWUu-5KJ5c/maxresdefault.jpg',
+      embedId: 'mTWUu-5KJ5c',
+      date: '2023-03-15',
+      url: 'https://www.youtube.com/watch?v=mTWUu-5KJ5c'
+    },
+    {
+      id: 19,
+      title: '癒合過程縮時攝影',
+      category: '技術說明',
+      duration: '3:15',
+      views: '167K',
+      description: '自癒混凝土裂縫癒合過程的縮時攝影記錄。',
+      thumbnail: 'https://img.youtube.com/vi/ztAmktMQDb4/maxresdefault.jpg',
+      embedId: 'ztAmktMQDb4',
+      date: '2023-04-28',
+      url: 'https://www.youtube.com/watch?v=ztAmktMQDb4'
+    },
+    {
+      id: 20,
+      title: 'ER7施工影片(日文)',
+      category: '施工教學',
+      duration: '14:15',
+      views: '58K',
+      description: 'ER7產品的施工方法和技術要點，日文解說版本。',
+      thumbnail: 'https://img.youtube.com/vi/FpDn9yj_n4w/maxresdefault.jpg',
+      embedId: 'FpDn9yj_n4w',
+      date: '2023-04-20',
+      url: 'https://www.youtube.com/watch?v=FpDn9yj_n4w'
+    },
+    {
+      id: 21,
+      title: '自癒混凝土原理說明(英文)',
+      category: '技術說明',
+      duration: '12:30',
+      views: '145K',
+      description: '自癒混凝土技術原理的詳細說明，英文版本。',
+      thumbnail: 'https://img.youtube.com/vi/9vMs2DuBYJk/maxresdefault.jpg',
+      embedId: '9vMs2DuBYJk',
+      date: '2023-03-22',
+      url: 'https://www.youtube.com/watch?v=9vMs2DuBYJk'
+    },
+    {
+      id: 22,
+      title: '自癒混凝土原理說明(日文)',
+      category: '技術說明',
+      duration: '11:45',
+      views: '92K',
+      description: '自癒混凝土技術原理的詳細說明，日文版本。',
+      thumbnail: 'https://img.youtube.com/vi/RgJT_cjzXko/maxresdefault.jpg',
+      embedId: 'RgJT_cjzXko',
+      date: '2023-02-18',
+      url: 'https://www.youtube.com/watch?v=RgJT_cjzXko'
     }
   ]
 
@@ -183,11 +381,22 @@ const Videos = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-video rounded-lg overflow-hidden shadow-xl">
               <img
-                src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                src="https://img.youtube.com/vi/znSeL66e8qE/maxresdefault.jpg"
                 alt="精選影片"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center cursor-pointer hover:bg-opacity-30 transition-all">
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center cursor-pointer hover:bg-opacity-30 transition-all" onClick={() => openVideo({
+                id: 'featured',
+                title: 'TED論壇：若是混凝土能夠自行修復呢？(可選擇中文字幕)',
+                category: '技術說明',
+                duration: '16:45',
+                views: '189K',
+                description: 'TED論壇探討自癒混凝土技術的可能性和未來發展，提供中文字幕選項。',
+                thumbnail: 'https://img.youtube.com/vi/znSeL66e8qE/maxresdefault.jpg',
+                embedId: 'znSeL66e8qE',
+                date: '2023-07-30',
+                url: 'https://www.youtube.com/watch?v=znSeL66e8qE'
+              })}>
                 <Play className="h-20 w-20 text-white" />
               </div>
             </div>
@@ -208,7 +417,18 @@ const Videos = () => {
                   <span>觀看次數：500K+</span>
                 </div>
               </div>
-              <Button size="lg" className="mt-6">
+              <Button size="lg" className="mt-6" onClick={() => openVideo({
+                id: 'featured',
+                title: 'TED論壇：若是混凝土能夠自行修復呢？(可選擇中文字幕)',
+                category: '技術說明',
+                duration: '16:45',
+                views: '189K',
+                description: 'TED論壇探討自癒混凝土技術的可能性和未來發展，提供中文字幕選項。',
+                thumbnail: 'https://img.youtube.com/vi/znSeL66e8qE/maxresdefault.jpg',
+                embedId: 'znSeL66e8qE',
+                date: '2023-07-30',
+                url: 'https://www.youtube.com/watch?v=znSeL66e8qE'
+              })}>
                 立即觀看
               </Button>
             </div>

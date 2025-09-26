@@ -6,10 +6,13 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 
 // Import project images
-import project1 from '../assets/Y9PMcaimRg7X.jpg'
-import project2 from '../assets/BcT6sJeWuuzw.jpg'
-import project3 from '../assets/aMPHxuuzphvB.jpg'
-import constructionImage from '../assets/WMFfKzRPuQ3D.jpg'
+import schipholAirport from '../assets/schiphol_airport.webp'
+import highwayA20 from '../assets/highway_a20.webp'
+import groningenConference from '../assets/groningen_conference.webp'
+import amsterdamReservoir from '../assets/amsterdam_reservoir.webp'
+import hetLooPalace from '../assets/het_loo_palace.webp'
+import publicParking from '../assets/public_parking.webp'
+import europolParking from '../assets/europol_parking.webp'
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('all')
@@ -23,7 +26,7 @@ const Projects = () => {
       year: '2018',
       client: 'Schiphol Airport',
       description: '使用Basilisk Self-Healing Repair Mortar MR3進行長久性修復工程。',
-      image: project1,
+      image: schipholAirport,
       results: [
         '長久性修復完成',
         '提升機場設施耐久性',
@@ -40,7 +43,7 @@ const Projects = () => {
       year: '2020',
       client: '荷蘭國家水利局',
       description: '高速公路基礎設施的長久性修復，使用Basilisk MR3技術。',
-      image: project2,
+      image: highwayA20,
       results: [
         '道路結構完全修復',
         '延長使用壽命',
@@ -57,7 +60,7 @@ const Projects = () => {
       year: '2016',
       client: 'BAM Utiliteitsbouw',
       description: '會議中心長久性修復防漏水工程，施工面積101平方公尺。',
-      image: project3,
+      image: groningenConference,
       results: [
         '100%解決滲漏問題',
         '建築防水性能提升',
@@ -74,7 +77,7 @@ const Projects = () => {
       year: '2019',
       client: 'BAM',
       description: '皇宮建築的長久性修復防漏水工程，混凝土用量5000平方公尺，施工時程六週。',
-      image: constructionImage,
+      image: hetLooPalace,
       results: [
         '歷史建築完美修復',
         '保護文化遺產',
@@ -91,7 +94,7 @@ const Projects = () => {
       year: '2022',
       client: '荷蘭政府',
       description: '公共停車場防漏水及加強結構工程，混凝土用量180平方公尺。',
-      image: constructionImage,
+      image: publicParking,
       results: [
         '結構安全性提升',
         '防水效能優異',
@@ -108,7 +111,7 @@ const Projects = () => {
       year: '2021',
       client: 'Rijksvastgoedbedrijf RVB',
       description: '大面積快速施工，減少空間封閉時間，施工面積12000平方公尺。',
-      image: constructionImage,
+      image: europolParking,
       results: [
         '大面積施工完成',
         '縮短封閉時間',

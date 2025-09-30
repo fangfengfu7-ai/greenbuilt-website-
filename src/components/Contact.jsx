@@ -100,7 +100,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-900 to-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">聯絡我們</h1>
@@ -123,7 +123,7 @@ const Contact = () => {
               
               {isSubmitted ? (
                 <Card className="p-8 text-center">
-                  <CheckCircle className="h-16 w-16 text-green-500 mx-auto mb-4" />
+                  <CheckCircle className="h-16 w-16 text-green-900 mx-auto mb-4" />
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">
                     訊息已送出！
                   </h3>

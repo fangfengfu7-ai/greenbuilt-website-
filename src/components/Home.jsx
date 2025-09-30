@@ -72,7 +72,7 @@ const Home = () => {
                 <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
                   {slide.title}
                 </h1>
-                <h2 className="text-2xl md:text-3xl mb-6 text-green-200">
+                <h2 className="text-2xl md:text-3xl mb-6 text-green-900">
                   {slide.subtitle}
                 </h2>
                 <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
@@ -95,13 +95,13 @@ const Home = () => {
         {/* Navigation Arrows */}
         <button
           onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-200 transition-colors"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-900 transition-colors"
         >
           <ChevronLeft size={48} />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-200 transition-colors"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-green-900 transition-colors"
         >
           <ChevronRight size={48} />
         </button>

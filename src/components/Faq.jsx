@@ -54,7 +54,7 @@ const Faq = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-900 to-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">常見問題集</h1>

@@ -35,7 +35,7 @@ const Technology = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-900 to-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">產品原理</h1>
@@ -176,7 +176,7 @@ const Technology = () => {
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (
                   <div key={index} className="flex items-center">
-                    <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-green-900 mr-3 flex-shrink-0" />
                     <span className="text-gray-700">{advantage}</span>
                   </div>
                 ))}

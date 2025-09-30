@@ -144,7 +144,7 @@ const Projects = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-green-600 to-green-800 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-900 to-green-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">工程實績</h1>
@@ -241,7 +241,7 @@ const Projects = () => {
                       <ul className="space-y-1">
                         {project.results.map((result, index) => (
                           <li key={index} className="flex items-center text-sm">
-                            <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
+                            <div className="w-2 h-2 bg-green-900 rounded-full mr-2"></div>
                             {result}
                           </li>
                         ))}

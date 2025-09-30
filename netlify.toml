@@ -1,0 +1,13 @@
+[build]
+  command = "pnpm install && pnpm run build"
+  publish = "dist"
+
+[build.environment]
+  NPM_FLAGS = "--prefix"
+  NPM_VERSION = "10.4.1" # 根據您的 package.json 中的 pnpm 版本調整
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

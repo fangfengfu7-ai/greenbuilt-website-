@@ -176,7 +176,7 @@ const Technology = () => {
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (
                   <div key={index} className="flex items-center">
-                    <CheckCircle className="h-6 w-6 text-green-900 mr-3 flex-shrink-0" />
+                    <CheckCircle className="h-6 w-6 text-primary mr-3 flex-shrink-0" />
                     <span className="text-gray-700">{advantage}</span>
                   </div>
                 ))}

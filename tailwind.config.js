@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         gray: {
-          '900': 'oklch(0.2099 0.0341 263.44)',
+          '900': 'oklch(0.309 0.119 259.65)',
         },
       },
     },

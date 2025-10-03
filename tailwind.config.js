@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        gray: {
-          '900': 'oklch(0.309 0.119 259.65)',
+        gray:           '900': 'oklch(0.309 0.119 259.65)',
         },
       },
     },
